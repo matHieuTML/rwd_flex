@@ -1,0 +1,54 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+    background: yellow;
+}
+main{
+    height: 70vh;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+nav{
+    height: 15vh;
+    background: orange;
+}
+article{
+    height: 120px;
+    width: 80vw;
+    background: white;
+    margin-left: 10vw;
+    margin-top: 10px;
+
+}
+
+footer{
+    height: 15vh;
+    background: purple;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px){
+    #sec1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    nav{
+        width: 30vw;
+        height: 25vh;
+    }
+    #art1{
+        width: 50vw;
+    }
+    #art2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
