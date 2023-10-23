@@ -32,7 +32,15 @@ footer{
     background: purple;
 }
 
+
+
 /* Media Queries */
+@media screen and (min-width: 320px){
+    nav{
+        height: 20vh ;
+    }
+}
+
 @media screen and (min-width: 768px){
     #sec1{
         display: flex;
